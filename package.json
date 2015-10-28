@@ -1,30 +1,33 @@
 {
   "name": "jstransformer-haml-coffee",
-  "version": "0.0.1",
-  "description": "A transformer that transforms a string with haml-coffee.",
+  "version": "0.1.0",
+  "description": "haml-coffee support for JSTransformers.",
+  "dependencies": {
+    "haml-coffee": "^1.14.1"
+  },
   "keywords": [
-    "jstransformer",
-    "haml-coffee"
+    "jstransformer"
   ],
   "files": [
-    "index.js",
-    "LICENSE.md"
+    "index.js"
   ],
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-haml-coffee.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "haml-coffee": "^1.14.1"
-  }
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
