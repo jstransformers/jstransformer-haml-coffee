@@ -1,9 +1,10 @@
 # jstransformer-haml-coffee
 
-JSTransformer support for [haml-coffee](https://github.com/netzpirat/haml-coffee).
+[haml-coffee](https://github.com/netzpirat/haml-coffee) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-haml-coffee/master.svg)](https://travis-ci.org/jstransformers/jstransformer-haml-coffee)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-haml-coffee/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-haml-coffee?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-haml-coffee/master.svg)](http://david-dm.org/jstransformers/jstransformer-haml-coffee)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-haml-coffee.svg)](https://www.npmjs.org/package/jstransformer-haml-coffee)
 
 ## Installation
@@ -15,7 +16,7 @@ JSTransformer support for [haml-coffee](https://github.com/netzpirat/haml-coffee
 ```js
 var hamlc = require('jstransformer')(require('jstransformer-haml-coffee'))
 
-foo.render('%h1= Hello World!').body
+hamlc.render('%h1= Hello World!').body
 //=> '<h1>Hello World!</h1>'
 ```
 
