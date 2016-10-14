@@ -3,7 +3,7 @@
 [haml-coffee](https://github.com/netzpirat/haml-coffee) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-haml-coffee/master.svg)](https://travis-ci.org/jstransformers/jstransformer-haml-coffee)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-haml-coffee/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-haml-coffee?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-haml-coffee/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-haml-coffee)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-haml-coffee/master.svg)](http://david-dm.org/jstransformers/jstransformer-haml-coffee)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-haml-coffee.svg)](https://www.npmjs.org/package/jstransformer-haml-coffee)
 
