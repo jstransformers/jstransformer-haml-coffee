@@ -1,5 +1,7 @@
 # jstransformer-haml-coffee
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-haml-coffee.svg)](https://greenkeeper.io/)
+
 [haml-coffee](https://github.com/netzpirat/haml-coffee) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-haml-coffee/master.svg)](https://travis-ci.org/jstransformers/jstransformer-haml-coffee)
