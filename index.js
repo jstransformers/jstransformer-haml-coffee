@@ -1,6 +1,6 @@
 'use strict'
 
-var hamlc = require('haml-coffee')
+const hamlc = require('haml-coffee')
 
 exports.name = 'haml-coffee'
 exports.inputFormats = ['haml', 'hamlc', 'haml-coffee']
